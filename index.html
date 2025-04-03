@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>CatPhotoApp</h2>
+    <main>
+      <p>
+        Click here to view more
+        <a href="#" target="_blank">cat photos</a>.
+      </p>
+
+      <a href="#">
+        <img
+          src="https://fcc.im/fcc-relaxing-cat"
+          alt="Photo that shows a cat"
+        />
+      </a>
+      <h3>Cat Lists</h3>
+      <div class="lists">
+        <p>things cat <em>love</em></p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointer</li>
+          <li>lasagna</li>
+        </ul>
+        <img src="#" alt="lasagna" />
+        <p>things cat <strong>hate</strong></p>
+        <ol>
+          <li>flea treament</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+      <img src="#" alt="Cats" />
+      <form action="/sumbit-cat-photo">
+        <label for="indoor"
+          ><input type="radio" id="indoor" name="indoor-outdoor" />
+          indoor</label
+        >
+        <br />
+        <label for="outdoor"
+          ><input type="radio" id="outdoor" name="indoor-outdoor" />
+          outdoor</label
+        >
+        <br />
+        <label for="loving">
+          <input type="checkbox" id="loving" name="personality" checked />
+          Loving
+        </label>
+        <br />
+        <label for="loving">
+          <input type="checkbox" id="loving" name="personality" /> Lazy
+        </label>
+        <br />
+        <label for="loving">
+          <input type="checkbox" id="loving" name="personality" /> Energetic
+        </label>
+        <br />
+        <input type="text" placeholder="cat photo URL" required />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <small>
+        <p>No Copyright</p>
+      </small>
+    </footer>
+  </body>
+</html>
